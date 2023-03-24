@@ -16,6 +16,7 @@ header{
   flex-wrap: wrap;
   margin: 2.4rem auto;
   max-width: 1200px;
+  padding: 0 2rem;
 }
 .logoNav{
   display: flex;
@@ -56,7 +57,9 @@ header{
   display: flex;
   flex-direction: column;
   margin: 2.4rem auto;
-   max-width: 1200px;
+  max-width: 1200px;
+  padding: 0 2rem;
+
 }
 
 /* Section Diferencial */
@@ -93,6 +96,7 @@ header{
 
 .result ul{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   padding-top: 10rem;
   gap:3.2rem;
@@ -202,8 +206,8 @@ margin-left: 24rem;
   margin-bottom: 10rem;
 }
 
-.evidence-profile img{
-
+img{
+max-width: 100%;
 }
 .evidence-profile h2{
   font-size: 1.6rem;
