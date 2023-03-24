@@ -76,6 +76,7 @@ header{
   line-height: 6rem;
   text-align: center;
   margin-top: 2.4rem;
+  
 }
 .differential p{
   font-size:2rem;
@@ -83,9 +84,176 @@ header{
   font-weight:400;
   line-height: 3rem;
   text-align: center;
-  margin-top: 2.4rem;
-  max-width: 79rem;
+  padding-top: 2.4rem;
+  margin: 0 auto;
+  max-width: 79rem; 
+}
+
+/* Section Diferencial */
+
+.result ul{
   display: flex;
   align-items: center;
+  padding-top: 10rem;
+  gap:3.2rem;
+}
+.result-iten h2{
+  margin: 0;
+  font-size: 6rem;
+  color: #8E2424;
+}
+.result-iten h3{
+  margin: 0;
+  font-size: 1.8rem;
+  color: #101828;
+  padding: 1.8rem 0 1rem;
+}
+.result-iten p{
+  margin: 0 auto;
+  font-size: 1.6rem;
+  color: #667085;
+  max-width: 28rem;
+}
+
+
+/* Section Opportunities */
+.opportunities{
+  margin-bottom: 13rem;
+}
+
+.opportunities-text{
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  margin-top: 20rem;
+}
+.opportunities-text button{
+font-size: 1.4rem;
+font-weight: 500;
+color: #8E2424;
+border-radius: 1rem;
+padding: 0.4rem 1.2rem;
+border: none;
+margin-bottom: 1.6rem;
+}
+.opportunities-text h1{
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #101828;
+  margin-bottom: 2rem;
+}
+.opportunities-text p{
+  font-size: 2rem;
+  font-weight: 400;
+  color: #667085;
+  margin-bottom: 6rem;
+}
+.opportunities-description{
+  margin-top: 6.4rem;
+
+}
+
+.opportunities-description h2{
+font-size: 2rem;
+font-weight: 500;
+color: #101828;
+margin-bottom: 3.2rem;
+margin-left: 24rem;
+}
+.opportunities-description span{
+  display: inline-block;
+  padding-right: 2.4rem;
+  padding-bottom: 2rem;
+  color: #667085;
+}
+.opportunities-description h3{
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #101828;
+}
+.opportunities-description-iten{
+  border: 1px #EAECF0 solid;
+  border-radius: 1.6rem;
+  margin-left: 24rem;
+  padding-left: 2.4rem;
+  margin-bottom: 1rem;
+  max-width: 77rem;
+}
+
+/* Section evidence */
+
+.evidence{
+  text-align: center;
+}
+
+.evidence-text h2{
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #8E2424;
+  margin-bottom: 1.6rem;
+}
+
+.evidence-text h1{
+  font-size: 3.6rem;
+  font-weight: 500;
+  color: #101828;
+  line-height: 4.4rem;
+  margin-bottom: 10rem;
+}
+
+.evidence-profile img{
+
+}
+.evidence-profile h2{
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #101828;
+  margin-top: 1.6rem;;
+  margin-bottom: 0.4rem;
+}
+.evidence-profile h3{
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #667085;
+}
+
+/* Section Form*/
+.form{
+  text-align: center;
+}
+.form h1{
+  font-size: 3.6rem;
+  font-weight: 600;
+  color: #101828;
+  margin-bottom:2rem;
+}
+.form h2{
+  font-size: 2rem;
+  font-weight: 400;
+  color: #667085;
+  margin-bottom:4rem;
+}
+.form input{
+  box-sizing: border-box;
+  width: 36rem;
+  color: #667085;
+  padding: 1.2rem 1.4rem;
+  margin-right: 1.6rem;
+  border: 1px #D0D5DD solid;
+  border-radius: 8px;
+}
+.form button{
+  background-color: #8E2424;
+  color: #fff;
+  padding: 1.2rem 1.4rem;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Section Form*/
+footer{
+  text-align: center;
+  color: #98A2B3;
+  padding: 2rem 0;
 }
